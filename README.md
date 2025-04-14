@@ -19,8 +19,8 @@ npm install
 
 2. In the root (crypto-tracker/), create a package.json script or run manually:
 
-bash
-Copy code
+```bash
+
 # Terminal 1 - Backend
 cd server
 node index.js
