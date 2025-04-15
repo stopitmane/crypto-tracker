@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import CoinChart from './CoinChart'; // Adjust the path if necessary
+import CoinChart from "./components/CoinChart"; // update the path if in a subfolder
 
 
 const App = () => {
