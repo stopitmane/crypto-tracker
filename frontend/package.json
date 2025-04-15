@@ -6,7 +6,9 @@
   "scripts": {
     "client": "npm --prefix frontend run dev",
     "server": "node server/index.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.8.4",
