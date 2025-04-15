@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import CoinChart from './CoinChart'; // Adjust the path if necessary
+
 
 const App = () => {
   const [coins, setCoins] = useState([]);
